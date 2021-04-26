@@ -24,10 +24,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.card-ctr{
-margin: 0 25px 0 25px;
-}
-
 .card-img{
     position: relative;
     width: 250px;
@@ -35,6 +31,68 @@ margin: 0 25px 0 25px;
     background-size: cover;
     background-position: center;
     margin-top: 25px;
+}
+
+.hearth{
+    position: absolute;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    right: 0;
+    top: 8px;
+    font-size: 20px;
+}
+
+.container-label{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+[class^="label-"]{
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.label-discount{
+    background-color: red;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.label-sustainability{
+    background-color: green;
+}
+
+.card-description{
+    width: 250px;
+    font-size: 12px;
+}
+
+.special-description{
+    background-color: rgb(19, 163, 19);
+    padding: 12px 0 12px 5px;
+}
+
+.card-center{
+margin: 0 25px 0 25px;
+}
+
+.brand > .apex{
+    vertical-align: super;
+    font-size: 8px;
+}
+
+.price{
+    padding-top: 5px;
+    color: red;
+    font-weight: 800;
+}
+
+.brand{
+    padding-top: 4px;
 }
 
 .img-1{
@@ -82,83 +140,4 @@ margin: 0 25px 0 25px;
 
 .img-6:hover{
     background-image: url(../img/6-hover.webp);
-}
-
-.hearth{
-    position: absolute;
-    width: 30px;
-    line-height: 30px;
-    text-align: center;
-    background-color: white;
-    right: 0;
-    top: 8px;
-    font-size: 20px;
-}
-
-.card-description{
-    width: 250px;
-    font-size: 12px;
-}
-
-.special-description{
-    background-color: rgb(19, 163, 19);
-    padding: 12px 0 12px 5px;
-}
-
-[class^="tag-"]{
-    position: absolute;
-    color: white;
-    bottom: 10px;
-    font-weight: 400;
-    font-size: 10px;
-    padding: 5px;
-}
-
-.tag-discount{
-    background-color: red;
-}
-
-.tag-sustainability{
-    background-color: green;
-    left: 40px
-}
-
-.apex{
-    vertical-align: super;
-    font-size: 8px;
-}
-
-.price{
-    padding-top: 5px;
-    color: red;
-    font-weight: 800;
-}
-
-.brand{
-    padding-top: 4px;
-}
-
-/* PROVA */
-
-.container-tag{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-}
-
-[class^="tag1-"]{
-    color: white;
-    font-size: 10px;
-    padding: 5px;
-}
-
-
-.tag1-discount{
-    background-color: red;
-    padding: 5px;
-    margin-right: 5px;
-}
-
-.tag1-sustainability{
-    background-color: green;
 }
