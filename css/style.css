@@ -8,9 +8,14 @@
     width: 800px;
     height: 1000px;
     margin: 0 auto;
-    background-color: red;
+    background-color: rgb(138, 91, 91);
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -20,7 +25,19 @@ body{
     position: relative;
     width: 250px;
     height: 400px;
-    background-color: lightgray;
+}
+
+.img{
+    background-size: cover;
+    background-position: center;
+}
+
+.img-1{
+    background-image: url(../img/1.webp);
+}
+
+.img-1:hover{
+    background-image: url(../img/1-hover.webp);
 }
 
 .hearth{
@@ -36,8 +53,9 @@ body{
 
 .card-description{
     width: 250px;
-    height: 100px;
-    background-color: rosybrown;
+    /* height: 100px; */
+    background-color: rgb(172, 158, 158);
+    font-size: 12px;
 }
 
 [class^="tag-"]{
@@ -46,7 +64,7 @@ body{
     bottom: 10px;
     position: absolute;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 10px;
     /* line-height: 20px; */
     padding: 5px;
 }
@@ -57,5 +75,16 @@ body{
 
 .tag-sustainability{
     background-color: green;
-    left: 50px
+    left: 40px
+}
+
+.apex{
+    vertical-align: super;
+    font-size: 8px;
+}
+
+.price{
+    padding-top: 5px;
+    color: red;
+    font-weight: 800;
 }
