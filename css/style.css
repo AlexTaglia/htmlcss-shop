@@ -6,7 +6,6 @@
 }
 .container{
     width: 800px;
-    height: 1000px;
     margin: 0 auto;
 }
 
@@ -23,7 +22,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
 
 .card-img{
     position: relative;
