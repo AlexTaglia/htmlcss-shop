@@ -24,6 +24,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .card-img{
     position: relative;
     width: 250px;
@@ -47,7 +48,6 @@ body{
 .container-label{
     position: absolute;
     bottom: 10px;
-    width: 100%;
 }
 
 [class^="label-"]{
@@ -67,7 +67,6 @@ body{
 }
 
 .card-description{
-    width: 250px;
     font-size: 12px;
 }
 
@@ -77,7 +76,7 @@ body{
 }
 
 .card-center{
-margin: 0 25px 0 25px;
+    margin: 0 25px 0 25px;
 }
 
 .brand > .apex{
