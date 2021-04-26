@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-img{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    background-color: lightgray;
+}
+
+.hearth{
+    position: absolute;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    right: 0;
+    top: 8px;
+    font-size: 20px;
+}
+
+.card-description{
+    width: 250px;
+    height: 100px;
+    background-color: rosybrown;
+}
+
+[class^="tag-"]{
+    display: inline-block;
+    color: white;
+    bottom: 10px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 20px; */
+    padding: 5px;
+}
+
+.tag-discount{
+    background-color: red;
+}
+
+.tag-sustainability{
+    background-color: green;
+    left: 50px
+}
