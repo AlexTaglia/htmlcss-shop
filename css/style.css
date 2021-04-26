@@ -8,7 +8,6 @@
     width: 800px;
     height: 1000px;
     margin: 0 auto;
-    background-color: rgb(138, 91, 91);
 }
 
 .clearfix::after{
@@ -17,19 +16,26 @@
     clear: both;
 }
 
+.fl{
+    float: left;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+.card-ctr{
+margin: 0 25px 0 25px;
 }
 
 .card-img{
     position: relative;
     width: 250px;
     height: 400px;
-}
-
-.img{
     background-size: cover;
     background-position: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 .img-1{
@@ -38,6 +44,45 @@ body{
 
 .img-1:hover{
     background-image: url(../img/1-hover.webp);
+}
+
+.img-2{
+    background-image: url(../img/2.webp);
+}
+
+.img-2:hover{
+    background-image: url(../img/2-hover.webp);
+}
+.img-3{
+    background-image: url(../img/3.webp);
+}
+
+.img-3:hover{
+    background-image: url(../img/3-hover.webp);
+}
+
+.img-4{
+    background-image: url(../img/4.webp);
+}
+
+.img-4:hover{
+    background-image: url(../img/4-hover.webp);
+}
+
+.img-5{
+    background-image: url(../img/5.webp);
+}
+
+.img-5:hover{
+    background-image: url(../img/5-hover.webp);
+}
+
+.img-6{
+    background-image: url(../img/6.webp);
+}
+
+.img-6:hover{
+    background-image: url(../img/6-hover.webp);
 }
 
 .hearth{
@@ -53,9 +98,13 @@ body{
 
 .card-description{
     width: 250px;
-    /* height: 100px; */
-    background-color: rgb(172, 158, 158);
     font-size: 12px;
+}
+
+.special-description{
+    background-color: rgb(19, 163, 19);
+    padding: 12px 0 12px 5px;
+    
 }
 
 [class^="tag-"]{
@@ -65,7 +114,6 @@ body{
     position: absolute;
     font-weight: 400;
     font-size: 10px;
-    /* line-height: 20px; */
     padding: 5px;
 }
 
