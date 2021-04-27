@@ -5,7 +5,7 @@
 
 }
 .container{
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -23,19 +23,21 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.card{
+    width: calc((100% / 3) - 30px);
+    margin: 15px;
+}
+
 .card-img{
     position: relative;
-    width: 250px;
     height: 400px;
     background-size: cover;
-    background-position: center;
-    margin-top: 25px;
+    background-position: top center;
 }
 
 .hearth{
     position: absolute;
     width: 30px;
-    line-height: 30px;
     text-align: center;
     background-color: white;
     right: 0;
@@ -65,16 +67,13 @@ body{
 }
 
 .card-description{
-    font-size: 12px;
+    font-size: 10px;
+    height: 50px;
 }
 
 .special-description{
     background-color: rgb(19, 163, 19);
     padding: 12px 0 12px 5px;
-}
-
-.card-center{
-    margin: 0 25px 0 25px;
 }
 
 .brand > .apex{
@@ -96,7 +95,7 @@ body{
     background-image: url(../img/1.webp);
 }
 
-.img-1:hover{
+.card:hover .img-1{
     background-image: url(../img/1-hover.webp);
 }
 
